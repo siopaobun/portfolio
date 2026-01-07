@@ -13,7 +13,7 @@ function App() {
   return (
     <>
       <div className='bg-black'>
-      <div className="bg-fixed bg-linear-to-t from-purple-800 to-stone-0 h-full text-white">
+      <div className="bg-fixed bg-linear-to-t from-gray-950 to-blue-950 h-full text-white">
         
         <NavigationBar/>
 
@@ -25,34 +25,31 @@ function App() {
             <img src={reactLogo} className="logo react" alt="React logo" />
           </a> */}
           <div className='font-extralight text-6xl md:text-8xl text-center'>
-            [ Place Holder ]
+            Paolo Lapira
           </div>
           <div className='text-center text-green-600'>
-            <code>[place holder]</code>
+            <code>[ewan ko pa]</code>
           </div>
         </div>
 
-        <div className='bg-black rounded-t-3xl px-9 py-5 h-lvh'>
+        <div className='bg-gray-950 px-9 py-5 md:px-20 h-lvh'>
             
-          <div className='flex flex-row my-4 max-h-75'>
-            <div className='border flex-col mr-5 min-w-2/3'>
-              <h1 className='text-3xl font-bold md:text-5xl my-1'>Dorm Monitoring and Managemant</h1>
-              <p className='py-2'> A centralized system to track and manage univeristy dorm residents. </p>
-              <p className='font-light'> Technologies: Laravel, ReactJS, PostgreSQL</p>
+          <div className='flex flex-row justify-center my-6 max-h-75 '>
+          
+            <div className='w-full relative bg-gray-800 outline outline-white/15 mr-5 rounded-r-lg rounded-l-xl py-5 px-6'>
+                <h1 className='text-3xl font-bold md:text-5xl my-1'> Dorm Monitoring and Managemant </h1>
+                <p className='my-2'> A centralized system to track and manage univeristy dorm residents. </p>
+                <p className='static sm:absolute sm:bottom-5 tracking-wide font-bold'> Technologies: Laravel, ReactJS, PostgreSQL</p>
             </div>
-            <div className='border flex justify-center min-w-1/3 '>
-              <img className="" src={FillerImg} />
-            </div>
+            <img className="max-w-3/10 outline outline-white/40 rounded-l-lg rounded-r-xl object-cover" src={FillerImg} />
           </div>
 
-          <div className='flex flex-row my-4 max-h-75'>
-            <div className='border flex justify-center min-w-1/3 '>
-              <img className="" src={FillerImg} />
-            </div>
-            <div className='border flex-col ml-5 min-w-2/3'>
+          <div className='flex flex-row justify-center my-6 max-h-75'>
+              <img className="max-w-3/10 object-cover outline outline-white/40 rounded-r-lg rounded-l-xl" src={FillerImg} />
+            <div className='w-full relative bg-gray-800 outline outline-white/15 ml-5 rounded-r-lg rounded-l-xl py-5 px-6'>
               <h1 className='text-3xl font-bold md:text-5xl my-1 '> Climate Sentiment Classifier </h1>
               <p className='py-2'> Natural Language AI model trained to identify emotional sentiment on climate-related statements</p>
-              <p className='font-light'> Technologies: Python (Tensorflow, Pandas, etc)</p>
+              <p className='static sm:absolute sm:bottom-5 tracking-wide font-bold'> Technologies: Python (Tensorflow, Pandas, etc)</p>
             </div>
           </div>
 
