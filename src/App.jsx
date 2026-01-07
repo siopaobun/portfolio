@@ -6,6 +6,8 @@ import './App.css'
 
 import NavigationBar from './component/NavigationBar'
 
+import FillerImg from "./assets/filler.jpg"
+
 function App() {
 
   return (
@@ -39,13 +41,13 @@ function App() {
               <p className='font-light'> Technologies: Laravel, ReactJS, PostgreSQL</p>
             </div>
             <div className='border flex justify-center min-w-1/3 '>
-              <img className="" src={'public/filler.jpg'} />
+              <img className="" src={FillerImg} />
             </div>
           </div>
 
           <div className='flex flex-row my-4 max-h-75'>
             <div className='border flex justify-center min-w-1/3 '>
-              <img className="" src={'public/filler.jpg'} />
+              <img className="" src={FillerImg} />
             </div>
             <div className='border flex-col ml-5 min-w-2/3'>
               <h1 className='text-3xl font-bold md:text-5xl my-1 '> Climate Sentiment Classifier </h1>
