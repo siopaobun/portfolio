@@ -36,20 +36,20 @@ function App() {
             
           <div className='flex flex-row justify-center my-6 max-h-75 '>
           
-            <div className='w-full relative bg-gray-800 outline outline-white/15 mr-5 rounded-r-lg rounded-l-xl py-5 px-6'>
+            <div className='flex flex-col overflow-hidden w-full bg-gray-800 outline outline-white/15 mr-5 rounded-r-lg rounded-l-xl rounded-tl-4xl py-5 px-6'>
                 <h1 className='text-3xl font-bold md:text-5xl my-1'> Dorm Monitoring and Managemant </h1>
-                <p className='my-2'> A centralized system to track and manage univeristy dorm residents. </p>
-                <p className='static sm:absolute sm:bottom-5 tracking-wide font-bold'> Technologies: Laravel, ReactJS, PostgreSQL</p>
+                <p className='grow my-2'> A centralized system to track and manage univeristy dorm residents. </p>
+                <p className='tracking-wide font-bold'> Technologies: Laravel, ReactJS, PostgreSQL</p>
             </div>
             <img className="max-w-3/10 outline outline-white/40 rounded-l-lg rounded-r-xl object-cover" src={FillerImg} />
           </div>
 
           <div className='flex flex-row justify-center my-6 max-h-75'>
               <img className="max-w-3/10 object-cover outline outline-white/40 rounded-r-lg rounded-l-xl" src={FillerImg} />
-            <div className='w-full relative bg-gray-800 outline outline-white/15 ml-5 rounded-r-lg rounded-l-xl py-5 px-6'>
+            <div className='flex flex-col overflow-hidden w-full bg-gray-800 outline outline-white/15 ml-5 rounded-l-lg rounded-r-xl  rounded-br-4xl py-5 px-6'>
               <h1 className='text-3xl font-bold md:text-5xl my-1 '> Climate Sentiment Classifier </h1>
-              <p className='py-2'> Natural Language AI model trained to identify emotional sentiment on climate-related statements</p>
-              <p className='static sm:absolute sm:bottom-5 tracking-wide font-bold'> Technologies: Python (Tensorflow, Pandas, etc)</p>
+              <p className='grow py-2'> Natural Language AI model trained to identify emotional sentiment on climate-related statements</p>
+              <p className='tracking-wide font-bold'> Technologies: Python (Tensorflow, Pandas, etc)</p>
             </div>
           </div>
 
